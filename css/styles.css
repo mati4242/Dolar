@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:black;
+    background-image: url("../images/back.png");
+    text-align: center;
+
+} 
+
+h1 {
+    font-family: roboto;
+    font-size: 3rem;
+    color: white;
+    margin: 5vh 0;
+} 
+
+.main {
+    display: grid;
+    justify-items: center;
+    grid-row-gap: 50px;
+}
+
+.dolar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0vh 6vw;
+    border-radius: 20px;
+    border: 2px solid #15D880;
+    color: white;
+    background-color: #17223b60;
+}
+
+.dolar__price {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 5vw;
+    width: inherit;
+    font-family: roboto;
+    font-size: 2rem;
+}
+
+.dolar__title {
+    font-family: roboto;
+    font-size: 2.5rem;
+    font-weight: 500;
+    border-bottom: 1px solid #15D880;
+}
+
+.dolar__price--solidario, .dolar__price--turista {
+    display: block;
+}
+
+.show-more {
+    display: none;
+}
+
+.show-less {
+    display: block;
+}
+
+.show-more__content {
+    display: grid;
+    grid-row-gap: 50px;
+}
+
+.main__button {
+    color: white;
+    border: 2px solid #15D880;
+    background-color: #17223b60;
+    border-radius: 18px;
+    outline: none;
+    width: 300px;
+    padding: 10px;
+}
+
+.main__button:hover {
+ cursor: pointer;
+ background-color: #15d8802a;
+}
+
+.main__button--text {
+    font-family: roboto;
+    font-size: 1.3rem;
+}
+
+.main__button--img {
+    width: 25px;
+}
+
+.rotate {
+    transform: rotate(180deg) ;
+}
+
+
+/* footer {
+    background-color: teal;
+    height: 2vh;
+}
+
+.footer__Link {
+    background-color: #17223b;
+    width: 50px;
+} */
