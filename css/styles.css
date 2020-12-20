@@ -32,6 +32,7 @@ h1 {
     display: grid;
     grid-column-start: 2;
     grid-row-gap: 50px;
+    width: 100%;
 }
 
 
@@ -42,6 +43,7 @@ h1 {
     padding: 0vh 6vw;
     border-radius: 20px;
     border: 2px solid #15D880;
+    box-shadow: 0px 0 16px 1px #15D880;
     background-color: #17223b60;
     color: white;
 }
@@ -60,6 +62,7 @@ h1 {
     font-size: 2.5rem;
     font-weight: 500;
     border-bottom: 1px solid #15D880;
+    
 }
 
 .dolar__price--solidario, .dolar__price--turista {
@@ -73,6 +76,7 @@ h1 {
 
 .show-more {
     display: none;
+
 }
 
 .show-less {
@@ -88,10 +92,11 @@ h1 {
 }
 
 .main__button {
+    background: none;
     color: white;
     border: 2px solid #15D880;
     background-color: #17223b60;
-    border-radius: 18px;
+    border-radius: 40px;
     outline: none;
     width: 300px;
     padding: 10px;
@@ -101,6 +106,8 @@ h1 {
 .main__button:hover {
  cursor: pointer;
  background-color: #15d8802a;
+ box-shadow: 0 5px 50px 0 #15D880;
+ transition: 0.5s;
 }
 
 .main__button--text {
@@ -121,6 +128,7 @@ h1 {
     width: 15vw;
     align-items: center;
     border: 2px solid #15D880;
+    box-shadow: 0px 0 16px 1px #15D880;
     border-radius: 20px ;
     background-color: #17223b60;
 }
